@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "MyIP Pro",
+    "version": "1.0",
+    "description": "Real-time IP and geolocation display with a premium glassmorphic design.",
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": [
+        "https://ipwhois.app/*",
+        "https://freeipapi.com/*",
+        "https://ipapi.co/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    },
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    }
+}
